@@ -29,4 +29,3 @@ class Article < ApplicationRecord
     errors.add(:content, '50文字いじょうで！') unless char_count > 50
   end
 end
-
